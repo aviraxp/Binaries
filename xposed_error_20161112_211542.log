@@ -1,0 +1,856 @@
+11-12 21:13:29.764 I/Xposed  (  688): -----------------
+11-12 21:13:29.764 I/Xposed  (  688): Starting Xposed version 86.6 (Systemless by topjohnwu), compiled for SDK 23
+11-12 21:13:29.764 I/Xposed  (  688): Device: A2001 (OnePlus), Android version 6.0.1 (SDK 23)
+11-12 21:13:29.765 I/Xposed  (  688): ROM: oneplus2-userdebug 6.0.1 M4B30X 31e779cbf4 test-keys
+11-12 21:13:29.765 I/Xposed  (  688): Build fingerprint: OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447840920:user/release-keys
+11-12 21:13:29.765 I/Xposed  (  688): Platform: arm64-v8a, 64-bit binary, system server: yes
+11-12 21:13:29.765 I/Xposed  (  688): SELinux enabled: yes, enforcing: yes
+11-12 21:13:30.800 I/Xposed  (  688): -----------------
+11-12 21:13:30.800 I/Xposed  (  688): Added Xposed (/magisk/xposed/system/framework/XposedBridge.jar) to CLASSPATH
+11-12 21:13:31.218 I/Xposed  (  688): Detected ART runtime
+11-12 21:13:31.230 I/Xposed  (  688): Found Xposed class 'de/robv/android/xposed/XposedBridge', now initializing
+11-12 21:13:31.490 I/Xposed  (  688): Loading modules from /data/app/liubaoyua.customtext-1/base.apk
+11-12 21:13:31.780 I/Xposed  (  688):   Loading class liubaoyua.customtext.HookMethod
+11-12 21:13:31.786 I/Xposed  (  688): Loading modules from /data/app/com.seveilith.statusbarcleanup-1/base.apk
+11-12 21:13:31.913 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.XposedLog
+11-12 21:13:31.979 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.AirplaneMode
+11-12 21:13:31.980 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Alarm
+11-12 21:13:31.980 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Battery
+11-12 21:13:31.980 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Bluetooth
+11-12 21:13:31.981 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Carrier
+11-12 21:13:31.981 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.CellularData
+11-12 21:13:31.981 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Clock
+11-12 21:13:31.981 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Hotspot
+11-12 21:13:31.981 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.InputMethod
+11-12 21:13:32.023 I/Xposed  (  688): Status Bar Cleanup: Input Method hidden: true
+11-12 21:13:32.023 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Location
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Sim
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.StatusBar
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.SuIndicator
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.User
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.UserInStatusBarHeader
+11-12 21:13:32.024 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.VibrateMode
+11-12 21:13:32.025 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Vpn
+11-12 21:13:32.025 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.Wifi
+11-12 21:13:32.025 I/Xposed  (  688):   Loading class com.seveilith.statusbarcleanup.icons.ZenMode
+11-12 21:13:32.025 I/Xposed  (  688): Loading modules from /data/app/me.gitai.smscodehelper-1/base.apk
+11-12 21:13:32.056 I/Xposed  (  688):   Loading class me.gitai.smscodehelper.xposed.SMSHandlerHook
+11-12 21:13:32.057 I/Xposed  (  688):   Loading class me.gitai.smscodehelper.xposed.XposedUtilsHook
+11-12 21:13:32.057 I/Xposed  (  688): Loading modules from /data/app/com.iacn.bilineat-1/base.apk
+11-12 21:13:32.161 I/Xposed  (  688):   Loading class com.iacn.bilineat.XposedInit
+11-12 21:13:32.169 I/Xposed  (  688): Loading modules from /data/app/net.typeblog.webview-1/base.apk
+11-12 21:13:32.223 I/Xposed  (  688):   Loading class net.typeblog.webview.ModWebView
+11-12 21:13:32.224 I/Xposed  (  688): Loading modules from /data/app/com.thermatk.android.xf.telegram-1/base.apk
+11-12 21:13:32.368 I/Xposed  (  688):   Loading class com.thermatk.android.xf.telegram.Xposed
+11-12 21:13:32.382 I/Xposed  (  688): Loading modules from /data/app/io.github.francoiscampbell.xposeddatausage-1/base.apk
+11-12 21:13:32.459 I/Xposed  (  688):   Loading class io.github.francoiscampbell.xposeddatausage.Module
+11-12 21:13:32.473 I/Xposed  (  688): Loading modules from /data/app/com.ryansteckler.nlpunbounce-2/base.apk
+11-12 21:13:32.512 I/Xposed  (  688):   Loading class com.ryansteckler.nlpunbounce.hooks.Wakelocks
+11-12 21:13:32.513 I/Xposed  (  688): Loading modules from /data/app/net.fypm.InstallerOpt-1/base.apk
+11-12 21:13:32.616 I/Xposed  (  688):   Loading class net.fypm.InstallerOpt.Main
+11-12 21:13:32.628 I/Xposed  (  688): [ InstallerOpt Debug Start - ROM Detection ]
+11-12 21:13:32.629 I/Xposed  (  688):      Neither TW nor CM rom detected
+11-12 21:13:32.629 I/Xposed  (  688): [ InstallerOpt Debug End - ROM Detection ]
+11-12 21:13:32.629 I/Xposed  (  688): [ InstallerOpt Debug Start - XSharedPreferences - Init ]
+11-12 21:13:32.642 I/Xposed  (  688):      Success
+11-12 21:13:32.642 I/Xposed  (  688): [ InstallerOpt Debug End - XSharedPreferences - Init ]
+11-12 21:13:32.642 I/Xposed  (  688): [ InstallerOpt Debug Start - Signature Checking and Verification Overview ]
+11-12 21:13:32.642 I/Xposed  (  688):      Disable signature check status: true
+11-12 21:13:32.642 I/Xposed  (  688):      Disable application verification status: true
+11-12 21:13:32.642 I/Xposed  (  688): [ InstallerOpt Debug End - Signature Checking and Verification Overview ]
+11-12 21:13:32.645 I/Xposed  (  688): Loading modules from /data/app/de.xiaoxia.xstatusbarlunardate-1/base.apk
+11-12 21:13:32.723 I/Xposed  (  688):   Loading class de.xiaoxia.xstatusbarlunardate.Main
+11-12 21:13:32.739 I/Xposed  (  688):   Loading class de.xiaoxia.xstatusbarlunardate.Lockscreen
+11-12 21:13:32.740 I/Xposed  (  688): Loading modules from /data/app/pl.cinek.adblocker-1/base.apk
+11-12 21:13:32.770 I/Xposed  (  688):   Loading class pl.cinek.adblocker.Main
+11-12 21:13:32.782 I/Xposed  (  688): Loading modules from /data/app/tk.wasdennnoch.androidn_ify-2/base.apk
+11-12 21:13:32.913 I/Xposed  (  688):   Loading class tk.wasdennnoch.androidn_ify.XposedHook
+11-12 21:13:32.943 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Version jenkins-AndroidN-ify-769 (6)
+11-12 21:13:32.943 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Automated Build; Version: 769
+11-12 21:13:32.943 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Build Time: 2016-11-12T10:39Z
+11-12 21:13:32.943 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Git SHA: 3c2bb996b1de7e051193cef0c3875b1fbedc81e8
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Experimental features enabled
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: ---- Device info ----
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: SDK Version: 23
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Build ID: oneplus2-userdebug 6.0.1 M4B30X 31e779cbf4 test-keys
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Manufacturer: OnePlus
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Brand: OnePlus
+11-12 21:13:32.951 I/Xposed  (  688): [Android N-ify] [INFO] XposedHook: Model: A2001
+11-12 21:13:32.951 I/Xposed  (  688): Loading modules from /data/app/bin.xposed.Unblock163MusicClient-2/base.apk
+11-12 21:13:32.993 I/Xposed  (  688):   Loading class bin.xposed.Unblock163MusicClient.Main
+11-12 21:13:32.995 I/Xposed  (  688): Loading modules from /data/app/com.crossbowffs.nekosms-1/base.apk
+11-12 21:13:33.131 I/Xposed  (  688):   Loading class com.crossbowffs.nekosms.xposed.SmsHandlerHook
+11-12 21:13:33.137 I/Xposed  (  688):   Loading class com.crossbowffs.nekosms.xposed.XposedUtilsHook
+11-12 21:13:33.139 I/Xposed  (  688): Loading modules from /data/app/com.fkzhang.wechatforwarder-1/base.apk
+11-12 21:13:33.268 I/Xposed  (  688):   Loading class com.fkzhang.wechatforwarder.XposedInit
+11-12 21:13:33.281 I/Xposed  (  688): Loading modules from /data/app/com.flarejune.perfectcolorbar-1/base.apk
+11-12 21:13:33.312 I/Xposed  (  688):   Loading class com.flarejune.perfectcolorbar.XposedHook
+11-12 21:13:33.471 I/Xposed  (  688): Loading modules from /data/app/bin.xposed.screenshotdelayremover.mod-1/base.apk
+11-12 21:13:33.523 I/Xposed  (  688):   Loading class bin.xposed.screenshotdelayremover.mod.XposedMod
+11-12 21:13:33.524 I/Xposed  (  688): Loading modules from /data/app/com.android.vending.billing.InAppBillingService.LOCK-1/base.apk
+11-12 21:13:33.723 I/Xposed  (  688):   Loading class com.chelpus.XSupport
+11-12 21:13:33.863 I/Xposed  (  688): Loading modules from /data/app/com.fkzhang.wechatunrecalled-2/base.apk
+11-12 21:13:34.037 I/Xposed  (  688):   Loading class com.fkzhang.wechatunrecalled.XposedInit
+11-12 21:13:34.043 I/Xposed  (  688): Loading modules from /data/app/net.darkion.ripple.master-1/base.apk
+11-12 21:13:34.069 I/Xposed  (  688):   Loading class net.darkion.ripple.master.Main
+11-12 21:13:34.090 I/Xposed  (  688): Loading modules from /data/app/com.baoyz.bigbang-1/base.apk
+11-12 21:13:34.199 I/Xposed  (  688):   Loading class com.baoyz.bigbang.core.xposed.XposedBigBang
+11-12 21:13:34.216 I/Xposed  (  688): Loading modules from /data/app/name.caiyao.fakegps-1/base.apk
+11-12 21:13:34.325 I/Xposed  (  688):   Loading class name.caiyao.fakegps.MainHook
+11-12 21:13:34.331 I/Xposed  (  688): Loading modules from /data/app/com.crossbowffs.noautoshortcut-1/base.apk
+11-12 21:13:34.346 I/Xposed  (  688):   Loading class com.crossbowffs.noautoshortcut.Hook
+11-12 21:13:34.347 I/Xposed  (  688): Loading modules from /data/app/com.github.marloww.moremocklocationapps-1/base.apk
+11-12 21:13:34.382 I/Xposed  (  688):   Loading class com.github.marloww.moremocklocationapps.XposedModule
+11-12 21:13:34.383 I/Xposed  (  688): Loading modules from /data/app/de.robv.android.xposed.mods.appsettings-1/base.apk
+11-12 21:13:34.430 I/Xposed  (  688):   Loading class de.robv.android.xposed.mods.appsettings.XposedMod
+11-12 21:13:34.653 I/Xposed  (  688): Loading modules from /data/app/com.fkzhang.wechatcontactsmanager-2/base.apk
+11-12 21:13:34.890 I/Xposed  (  688):   Loading class com.fkzhang.wechatcontactsmanager.XposedInit
+11-12 21:13:34.908 I/Xposed  (  688): Loading modules from /data/app/xyz.paphonb.cmheadseticon-1/base.apk
+11-12 21:13:35.030 I/Xposed  (  688):   Loading class xyz.paphonb.cmheadseticon.xposed.CMHeadsetIconXposed
+11-12 21:13:35.068 I/Xposed  (  688): Loading modules from /data/app/com.czbix.xposed.wifipassword-1/base.apk
+11-12 21:13:35.097 I/Xposed  (  688):   Loading class com.czbix.xposed.wifipassword.Patch
+11-12 21:13:40.560 I/Xposed  (  689): -----------------
+11-12 21:13:40.560 I/Xposed  (  689): Starting Xposed version 86.6 (Systemless by topjohnwu), compiled for SDK 23
+11-12 21:13:40.560 I/Xposed  (  689): Device: A2001 (OnePlus), Android version 6.0.1 (SDK 23)
+11-12 21:13:40.560 I/Xposed  (  689): ROM: oneplus2-userdebug 6.0.1 M4B30X 31e779cbf4 test-keys
+11-12 21:13:40.560 I/Xposed  (  689): Build fingerprint: OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447840920:user/release-keys
+11-12 21:13:40.560 I/Xposed  (  689): Platform: arm64-v8a, 32-bit binary, system server: no
+11-12 21:13:40.560 I/Xposed  (  689): SELinux enabled: yes, enforcing: yes
+11-12 21:13:40.563 I/Xposed  (  689): -----------------
+11-12 21:13:40.563 I/Xposed  (  689): Added Xposed (/magisk/xposed/system/framework/XposedBridge.jar) to CLASSPATH
+11-12 21:13:41.063 I/Xposed  (  689): Detected ART runtime
+11-12 21:13:41.072 I/Xposed  (  689): Found Xposed class 'de/robv/android/xposed/XposedBridge', now initializing
+11-12 21:13:41.358 I/Xposed  (  689): Loading modules from /data/app/liubaoyua.customtext-1/base.apk
+11-12 21:13:41.681 I/Xposed  (  689):   Loading class liubaoyua.customtext.HookMethod
+11-12 21:13:41.689 I/Xposed  (  689): Loading modules from /data/app/com.seveilith.statusbarcleanup-1/base.apk
+11-12 21:13:41.862 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.XposedLog
+11-12 21:13:41.876 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.AirplaneMode
+11-12 21:13:41.877 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Alarm
+11-12 21:13:41.877 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Battery
+11-12 21:13:41.878 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Bluetooth
+11-12 21:13:41.878 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Carrier
+11-12 21:13:41.878 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.CellularData
+11-12 21:13:41.878 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Clock
+11-12 21:13:41.879 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Hotspot
+11-12 21:13:41.879 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.InputMethod
+11-12 21:13:41.886 I/Xposed  (  689): Status Bar Cleanup: Input Method hidden: true
+11-12 21:13:41.886 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Location
+11-12 21:13:41.886 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Sim
+11-12 21:13:41.887 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.StatusBar
+11-12 21:13:41.888 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.SuIndicator
+11-12 21:13:41.888 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.User
+11-12 21:13:41.888 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.UserInStatusBarHeader
+11-12 21:13:41.889 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.VibrateMode
+11-12 21:13:41.889 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Vpn
+11-12 21:13:41.890 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.Wifi
+11-12 21:13:41.892 I/Xposed  (  689):   Loading class com.seveilith.statusbarcleanup.icons.ZenMode
+11-12 21:13:41.893 I/Xposed  (  689): Loading modules from /data/app/me.gitai.smscodehelper-1/base.apk
+11-12 21:13:42.123 I/Xposed  (  689):   Loading class me.gitai.smscodehelper.xposed.SMSHandlerHook
+11-12 21:13:42.123 I/Xposed  (  689):   Loading class me.gitai.smscodehelper.xposed.XposedUtilsHook
+11-12 21:13:42.126 I/Xposed  (  689): Loading modules from /data/app/com.iacn.bilineat-1/base.apk
+11-12 21:13:42.313 I/Xposed  (  689):   Loading class com.iacn.bilineat.XposedInit
+11-12 21:13:42.320 I/Xposed  (  689): Loading modules from /data/app/net.typeblog.webview-1/base.apk
+11-12 21:13:42.372 I/Xposed  (  689):   Loading class net.typeblog.webview.ModWebView
+11-12 21:13:42.417 I/Xposed  (  689): Loading modules from /data/app/com.thermatk.android.xf.telegram-1/base.apk
+11-12 21:13:42.677 I/Xposed  (  689):   Loading class com.thermatk.android.xf.telegram.Xposed
+11-12 21:13:42.783 I/Xposed  (  689): Loading modules from /data/app/io.github.francoiscampbell.xposeddatausage-1/base.apk
+11-12 21:13:42.943 I/Xposed  (  689):   Loading class io.github.francoiscampbell.xposeddatausage.Module
+11-12 21:13:42.952 I/Xposed  (  689): Loading modules from /data/app/com.ryansteckler.nlpunbounce-2/base.apk
+11-12 21:13:43.026 I/Xposed  (  689):   Loading class com.ryansteckler.nlpunbounce.hooks.Wakelocks
+11-12 21:13:43.027 I/Xposed  (  689): Loading modules from /data/app/net.fypm.InstallerOpt-1/base.apk
+11-12 21:13:43.178 I/Xposed  (  689):   Loading class net.fypm.InstallerOpt.Main
+11-12 21:13:43.190 I/Xposed  (  689): [ InstallerOpt Debug Start - ROM Detection ]
+11-12 21:13:43.191 I/Xposed  (  689):      Neither TW nor CM rom detected
+11-12 21:13:43.191 I/Xposed  (  689): [ InstallerOpt Debug End - ROM Detection ]
+11-12 21:13:43.191 I/Xposed  (  689): [ InstallerOpt Debug Start - XSharedPreferences - Init ]
+11-12 21:13:43.197 I/Xposed  (  689):      Success
+11-12 21:13:43.197 I/Xposed  (  689): [ InstallerOpt Debug End - XSharedPreferences - Init ]
+11-12 21:13:43.197 I/Xposed  (  689): [ InstallerOpt Debug Start - Signature Checking and Verification Overview ]
+11-12 21:13:43.197 I/Xposed  (  689):      Disable signature check status: true
+11-12 21:13:43.197 I/Xposed  (  689):      Disable application verification status: true
+11-12 21:13:43.197 I/Xposed  (  689): [ InstallerOpt Debug End - Signature Checking and Verification Overview ]
+11-12 21:13:43.202 I/Xposed  (  689): Loading modules from /data/app/de.xiaoxia.xstatusbarlunardate-1/base.apk
+11-12 21:13:43.261 I/Xposed  (  689):   Loading class de.xiaoxia.xstatusbarlunardate.Main
+11-12 21:13:43.268 I/Xposed  (  689):   Loading class de.xiaoxia.xstatusbarlunardate.Lockscreen
+11-12 21:13:43.269 I/Xposed  (  689): Loading modules from /data/app/pl.cinek.adblocker-1/base.apk
+11-12 21:13:43.374 I/Xposed  (  689):   Loading class pl.cinek.adblocker.Main
+11-12 21:13:43.406 I/Xposed  (  689): Loading modules from /data/app/tk.wasdennnoch.androidn_ify-2/base.apk
+11-12 21:13:43.588 I/Xposed  (  689):   Loading class tk.wasdennnoch.androidn_ify.XposedHook
+11-12 21:13:43.607 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Version jenkins-AndroidN-ify-769 (6)
+11-12 21:13:43.607 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Automated Build; Version: 769
+11-12 21:13:43.607 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Build Time: 2016-11-12T10:39Z
+11-12 21:13:43.608 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Git SHA: 3c2bb996b1de7e051193cef0c3875b1fbedc81e8
+11-12 21:13:43.611 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Experimental features enabled
+11-12 21:13:43.611 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: ---- Device info ----
+11-12 21:13:43.611 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: SDK Version: 23
+11-12 21:13:43.611 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Build ID: oneplus2-userdebug 6.0.1 M4B30X 31e779cbf4 test-keys
+11-12 21:13:43.612 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Manufacturer: OnePlus
+11-12 21:13:43.612 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Brand: OnePlus
+11-12 21:13:43.612 I/Xposed  (  689): [Android N-ify] [INFO] XposedHook: Model: A2001
+11-12 21:13:43.612 I/Xposed  (  689): Loading modules from /data/app/bin.xposed.Unblock163MusicClient-2/base.apk
+11-12 21:13:43.669 I/Xposed  (  689):   Loading class bin.xposed.Unblock163MusicClient.Main
+11-12 21:13:43.670 I/Xposed  (  689): Loading modules from /data/app/com.crossbowffs.nekosms-1/base.apk
+11-12 21:13:43.814 I/Xposed  (  689):   Loading class com.crossbowffs.nekosms.xposed.SmsHandlerHook
+11-12 21:13:43.822 I/Xposed  (  689):   Loading class com.crossbowffs.nekosms.xposed.XposedUtilsHook
+11-12 21:13:43.823 I/Xposed  (  689): Loading modules from /data/app/com.fkzhang.wechatforwarder-1/base.apk
+11-12 21:13:43.938 I/Xposed  (  689):   Loading class com.fkzhang.wechatforwarder.XposedInit
+11-12 21:13:43.944 I/Xposed  (  689): Loading modules from /data/app/com.flarejune.perfectcolorbar-1/base.apk
+11-12 21:13:43.999 I/Xposed  (  689):   Loading class com.flarejune.perfectcolorbar.XposedHook
+11-12 21:13:44.092 I/Xposed  (  689): Loading modules from /data/app/bin.xposed.screenshotdelayremover.mod-1/base.apk
+11-12 21:13:44.116 I/Xposed  (  689):   Loading class bin.xposed.screenshotdelayremover.mod.XposedMod
+11-12 21:13:44.116 I/Xposed  (  689): Loading modules from /data/app/com.android.vending.billing.InAppBillingService.LOCK-1/base.apk
+11-12 21:13:44.255 I/Xposed  (  689):   Loading class com.chelpus.XSupport
+11-12 21:13:44.282 I/Xposed  (  689): Loading modules from /data/app/com.fkzhang.wechatunrecalled-2/base.apk
+11-12 21:13:44.392 I/Xposed  (  689):   Loading class com.fkzhang.wechatunrecalled.XposedInit
+11-12 21:13:44.398 I/Xposed  (  689): Loading modules from /data/app/net.darkion.ripple.master-1/base.apk
+11-12 21:13:44.450 I/Xposed  (  689):   Loading class net.darkion.ripple.master.Main
+11-12 21:13:44.464 I/Xposed  (  689): Loading modules from /data/app/com.baoyz.bigbang-1/base.apk
+11-12 21:13:44.527 I/Xposed  (  689):   Loading class com.baoyz.bigbang.core.xposed.XposedBigBang
+11-12 21:13:44.543 I/Xposed  (  689): Loading modules from /data/app/name.caiyao.fakegps-1/base.apk
+11-12 21:13:44.652 I/Xposed  (  689):   Loading class name.caiyao.fakegps.MainHook
+11-12 21:13:44.661 I/Xposed  (  689): Loading modules from /data/app/com.crossbowffs.noautoshortcut-1/base.apk
+11-12 21:13:44.682 I/Xposed  (  689):   Loading class com.crossbowffs.noautoshortcut.Hook
+11-12 21:13:44.682 I/Xposed  (  689): Loading modules from /data/app/com.github.marloww.moremocklocationapps-1/base.apk
+11-12 21:13:44.718 I/Xposed  (  689):   Loading class com.github.marloww.moremocklocationapps.XposedModule
+11-12 21:13:44.719 I/Xposed  (  689): Loading modules from /data/app/de.robv.android.xposed.mods.appsettings-1/base.apk
+11-12 21:13:44.750 I/Xposed  (  689):   Loading class de.robv.android.xposed.mods.appsettings.XposedMod
+11-12 21:13:44.770 I/Xposed  (  689): Loading modules from /data/app/com.fkzhang.wechatcontactsmanager-2/base.apk
+11-12 21:13:44.930 I/Xposed  (  689):   Loading class com.fkzhang.wechatcontactsmanager.XposedInit
+11-12 21:13:44.939 I/Xposed  (  689): Loading modules from /data/app/xyz.paphonb.cmheadseticon-1/base.apk
+11-12 21:13:45.088 I/Xposed  (  689):   Loading class xyz.paphonb.cmheadseticon.xposed.CMHeadsetIconXposed
+11-12 21:13:45.115 I/Xposed  (  689): Loading modules from /data/app/com.czbix.xposed.wifipassword-1/base.apk
+11-12 21:13:45.138 I/Xposed  (  689):   Loading class com.czbix.xposed.wifipassword.Patch
+11-12 21:13:47.544 E/Xposed  ( 3499): java.lang.NullPointerException: Attempt to invoke interface method 'android.app.IActivityManager$ContentProviderHolder android.app.IActivityManager.getContentProvider(android.app.IApplicationThread, java.lang.String, int, boolean)' on a null object reference
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4842)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at android.app.ContextImpl$ApplicationContentResolver.acquireUnstableProvider(ContextImpl.java:2018)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at android.content.ContentResolver.acquireUnstableProvider(ContentResolver.java:1471)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at android.content.ContentResolver.query(ContentResolver.java:477)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at android.content.ContentResolver.query(ContentResolver.java:435)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at name.caiyao.fakegps.MainHook.handleLoadPackage(Unknown Source)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:34)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:106)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedInit$3$1.beforeHookedMethod(XposedInit.java:146)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:314)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at com.android.server.SystemServer.startBootstrapServices(<Xposed>)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at com.android.server.SystemServer.run(SystemServer.java:286)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at com.android.server.SystemServer.main(SystemServer.java:173)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at java.lang.reflect.Method.invoke(Native Method)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+11-12 21:13:47.544 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:102)
+11-12 21:13:47.634 I/Xposed  ( 3499): xposeddatausage/Nuking PERMISSION_READ_NETWORK_USAGE_HISTORY check
+11-12 21:13:47.743 I/Xposed  ( 3499): Amplify: Version 3.3.8
+11-12 21:13:47.743 I/Xposed  ( 3499): Amplify: Attempting 19to23 AlarmHook
+11-12 21:13:47.745 I/Xposed  ( 3499): Amplify: Successful 19to23 AlarmHook
+11-12 21:13:47.746 I/Xposed  ( 3499): Amplify: Attempting 21to23 WakeLockHook
+11-12 21:13:47.750 I/Xposed  ( 3499): Amplify: Successful 21to23 WakeLockHook
+11-12 21:13:47.750 I/Xposed  ( 3499): Amplify: Service Blocking Status: true
+11-12 21:13:47.750 I/Xposed  ( 3499): Amplify: Attempting 23 ServiceHook
+11-12 21:13:47.752 I/Xposed  ( 3499): Amplify: Successful 23 ServiceHook
+11-12 21:13:49.267 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.272 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.353 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.355 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.372 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.374 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.398 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.399 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.422 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.426 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.441 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.442 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.462 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.464 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.501 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.503 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.552 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.554 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.579 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.581 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.614 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.615 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.662 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.664 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.687 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.688 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.704 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.705 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.724 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.726 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.751 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.753 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.784 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.785 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.811 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.812 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.833 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.835 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.853 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.854 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.876 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.877 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.899 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.901 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.929 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.930 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:49.998 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.003 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.127 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.129 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.146 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.147 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.163 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.164 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.188 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.189 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.222 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.225 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.278 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.281 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.334 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.336 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.367 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.369 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.394 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.395 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.415 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.416 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.437 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.438 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.456 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.460 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.475 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.477 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.500 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.502 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.572 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.574 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.617 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.620 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.648 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.650 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.696 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.698 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.729 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.731 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.750 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.751 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.772 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.773 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.801 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.803 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.850 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.852 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.877 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.879 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.901 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.902 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.934 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.936 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.978 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.979 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.994 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:50.995 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.015 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.017 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.045 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.047 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.077 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.079 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.094 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.095 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.136 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.139 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.163 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.164 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.187 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.189 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.203 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.205 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.222 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.224 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.247 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.248 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.267 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.268 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.287 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.289 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.302 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.303 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.324 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.325 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.356 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.359 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.401 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.402 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.416 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.418 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.445 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.446 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.529 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.531 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.603 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.605 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.634 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.636 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.668 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.670 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.735 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.737 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.787 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.792 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.927 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:51.930 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.063 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.066 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.158 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.160 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.216 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.219 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.434 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.438 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.677 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.682 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.993 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:52.995 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.127 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.131 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.710 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.715 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.770 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.772 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.867 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.869 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.906 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.909 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.940 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.942 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.972 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:53.973 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.014 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.016 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.142 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.144 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.343 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.346 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.519 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.521 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.645 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.648 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.704 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.706 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.822 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.824 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.860 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.861 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.894 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.896 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.921 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.922 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.950 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.952 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.968 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.969 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.992 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:54.993 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.015 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.016 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.030 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.031 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.049 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.050 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.080 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.081 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.111 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.113 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.141 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.143 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.173 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.174 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.195 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.196 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.235 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.237 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.439 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.441 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.468 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.470 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.506 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.508 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.520 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.522 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.542 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.544 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.582 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.584 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.679 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.681 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.715 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.718 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.759 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.761 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.787 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.789 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.811 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.813 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.884 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.886 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.927 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.929 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.977 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:55.979 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.046 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.051 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.715 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.718 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.817 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.821 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.899 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.901 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.927 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.929 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.966 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:56.969 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.100 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.103 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.240 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.244 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.272 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.276 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.303 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.304 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.347 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.353 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.621 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:57.623 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.317 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.320 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.350 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.353 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.382 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.384 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.459 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.462 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.510 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.513 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.561 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.563 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.596 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:13:58.597 I/Xposed  ( 3499):      checkSdkVersion set to: true
+11-12 21:14:00.357 E/Xposed  ( 3499): java.lang.IllegalArgumentException: Attempt to launch content provider before system ready
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.am.ActivityManagerService.getContentProviderImpl(ActivityManagerService.java:9740)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.am.ActivityManagerService.getContentProvider(ActivityManagerService.java:9925)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.acquireProvider(ActivityThread.java:4842)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ContextImpl$ApplicationContentResolver.acquireUnstableProvider(ContextImpl.java:2018)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.content.ContentResolver.acquireUnstableProvider(ContentResolver.java:1471)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.content.ContentResolver.query(ContentResolver.java:477)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.content.ContentResolver.query(ContentResolver.java:435)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at name.caiyao.fakegps.MainHook.handleLoadPackage(Unknown Source)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.IXposedHookLoadPackage$Wrapper.handleLoadPackage(IXposedHookLoadPackage.java:34)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.callbacks.XC_LoadPackage.call(XC_LoadPackage.java:61)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.callbacks.XCallback.callAll(XCallback.java:106)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedInit$4.afterHookedMethod(XposedInit.java:183)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedBridge.handleHookedMethod(XposedBridge.java:348)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.LoadedApk.<init>(<Xposed>)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:1864)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:1819)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.getPackageInfo(ActivityThread.java:1791)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ContextImpl.createPackageContextAsUser(ContextImpl.java:1692)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ContextImpl.createPackageContext(ContextImpl.java:1679)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.content.ContextWrapper.createPackageContext(ContextWrapper.java:746)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.installProvider(ActivityThread.java:5190)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4812)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:5398)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:10218)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.SystemServer.startOtherServices(SystemServer.java:500)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.SystemServer.run(SystemServer.java:288)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.server.SystemServer.main(SystemServer.java:173)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at java.lang.reflect.Method.invoke(Native Method)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+11-12 21:14:00.357 E/Xposed  ( 3499): 	at de.robv.android.xposed.XposedBridge.main(XposedBridge.java:102)
+11-12 21:14:04.610 I/Xposed  ( 3499): getWebViewPackageName
+11-12 21:14:05.576 I/Xposed  ( 4669): cusor is null
+11-12 21:14:05.672 I/Xposed  ( 4669): Status Bar Cleanup: SharedPrefs file readable: true
+11-12 21:14:06.050 I/Xposed  ( 4669): [Android N-ify] [DEBUG] NotificationHooks: Class MediaExpandableNotificationRow not found. Skipping media row check.
+11-12 21:14:06.203 I/Xposed  ( 4693): cusor is null
+11-12 21:14:06.234 I/Xposed  ( 4669): [Android N-ify] [DEBUG] SystemUIHooks: SystemUIApplication created, init
+11-12 21:14:21.637 I/Xposed  ( 5699): cusor is null
+11-12 21:14:30.049 I/Xposed  ( 5861): cusor is null
+11-12 21:14:36.338 I/Xposed  ( 4669): Status Bar Cleanup: User (Status Bar Header) -> hidden
+11-12 21:14:36.338 I/Xposed  ( 4669): [Android N-ify] [DEBUG] StatusBarHeaderHooks: onFinishInflateHook called
+11-12 21:14:36.402 I/Xposed  ( 4669): [Android N-ify] [DEBUG] StatusBarHeaderHooks: postSetupAnimators called
+11-12 21:14:36.402 I/Xposed  ( 4669): [Android N-ify] [DEBUG] StatusBarHeaderHooks: postSetupAnimatorsImpl called
+11-12 21:14:37.532 I/Xposed  ( 3499): cusor is null
+11-12 21:14:52.696 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:14:52.767 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:14:52.792 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:14:52.845 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:14:58.150 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:14:58.152 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:14:58.181 I/Xposed  ( 4669): [Android N-ify] [DEBUG] NotificationPanelHooks: setBarStateHook: Setting state to 1
+11-12 21:15:00.733 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:00.736 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:00.737 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:00.738 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.249 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.251 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.254 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.256 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.440 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.444 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.445 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.446 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.526 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.527 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.535 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.549 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.550 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.551 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.575 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.576 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.577 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.601 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.606 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.608 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.608 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:01.626 I/Xposed  ( 5906): cusor is null
+11-12 21:15:03.214 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.218 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.220 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.220 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.507 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.508 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.509 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.509 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.531 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.533 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.533 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.534 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.601 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.602 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.602 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.603 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.610 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.611 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.612 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.612 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.637 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.638 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.638 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.655 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.656 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.657 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.657 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.796 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.798 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.798 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.798 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:03.850 I/Xposed  ( 6769): cusor is null
+11-12 21:15:03.850 I/Xposed  ( 6769): com.tencent.mm,hook;false
+11-12 21:15:04.074 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.076 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.077 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.078 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.519 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.534 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.550 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.567 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.584 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.600 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.617 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.624 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.629 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.633 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.649 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.667 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.683 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.700 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.724 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.725 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.726 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.727 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.729 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.730 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.731 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.766 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:04.773 I/Xposed  ( 4669): [Android N-ify] [DEBUG] NotificationPanelHooks: setBarStateHook: Setting state to 0
+11-12 21:15:04.916 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:04.917 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:04.918 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.044 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.046 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.047 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.048 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.145 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.177 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.180 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.180 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.181 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 0
+11-12 21:15:05.183 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.219 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.484 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.486 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.486 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.487 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.764 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.780 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.796 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.807 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.807 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.808 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.808 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.839 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.840 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.840 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:05.841 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.270 I/Xposed  ( 6965): cusor is null
+11-12 21:15:06.271 I/Xposed  ( 6965): net.fypm.InstallerOpt,hook;false
+11-12 21:15:06.585 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.604 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.605 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.606 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.606 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.623 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.624 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.674 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.682 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.687 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.688 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.688 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.689 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.696 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:06.996 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.019 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.021 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 403
+11-12 21:15:07.026 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 403
+11-12 21:15:07.026 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 403
+11-12 21:15:07.035 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 573
+11-12 21:15:07.036 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 656
+11-12 21:15:07.038 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 656
+11-12 21:15:07.039 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 656
+11-12 21:15:07.048 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 946
+11-12 21:15:07.063 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1154
+11-12 21:15:07.079 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1293
+11-12 21:15:07.099 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1370
+11-12 21:15:07.113 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1402
+11-12 21:15:07.130 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1404
+11-12 21:15:07.169 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1404
+11-12 21:15:07.170 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1404
+11-12 21:15:07.512 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1404
+11-12 21:15:07.533 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1225
+11-12 21:15:07.545 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 1007
+11-12 21:15:07.554 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 952
+11-12 21:15:07.555 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 952
+11-12 21:15:07.561 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 952
+11-12 21:15:07.578 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 579
+11-12 21:15:07.595 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 394
+11-12 21:15:07.612 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 315
+11-12 21:15:07.631 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 315
+11-12 21:15:07.632 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.632 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.635 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.635 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.636 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:07.641 I/Xposed  ( 4669): [Android N-ify] [DEBUG] StatusBarHeaderHooks: handleShowDetailImpl: hiding detail; expanding: true;
+11-12 21:15:08.008 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.010 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.029 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.031 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.045 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.045 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.059 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.060 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.061 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.062 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.078 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.099 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.100 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.100 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.101 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.137 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.139 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.139 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:08.140 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:09.804 I/Xposed  ( 7062): cusor is null
+11-12 21:15:09.805 I/Xposed  ( 7062): com.pluscubed.matlog,hook;false
+11-12 21:15:10.388 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.406 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.412 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.413 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.414 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.441 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.446 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.534 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.549 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.572 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.580 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.588 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.591 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.592 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.593 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.686 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.688 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.711 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.713 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.725 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.726 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.729 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.731 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.745 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.819 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.820 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.820 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.821 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.853 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.854 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.854 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:10.855 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:23.352 I/Xposed  ( 6769): com.tencent.mm loading com.fkzhang.wechatcontactsmanager
+11-12 21:15:23.560 I/Xposed  ( 7375): [ InstallerOpt Debug Start - initAppOpsDetailsHook ]
+11-12 21:15:23.560 I/Xposed  ( 7375):      Method not found: java.lang.NoSuchMethodError: com.android.settings.applications.AppOpsDetails#isPlatformSigned()#exact
+11-12 21:15:23.560 I/Xposed  ( 7375): [ InstallerOpt Debug End - initAppOpsDetailsHook ]
+11-12 21:15:23.585 I/Xposed  ( 7375): Hook M constructor success
+11-12 21:15:23.612 I/Xposed  ( 7375): cusor is null
+11-12 21:15:24.640 I/Xposed  ( 7409): cusor is null
+11-12 21:15:26.272 I/Xposed  ( 7455): cusor is null
+11-12 21:15:26.272 I/Xposed  ( 7455): com.tencent.mm,hook;false
+11-12 21:15:32.158 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.159 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.160 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.160 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.207 I/Xposed  ( 6769): WechatContactsManager (2.6.0)  Loaded app: com.tencent.mm 6.3.28
+11-12 21:15:32.207 I/Xposed  ( 6769): com.tencent.mm loading com.fkzhang.wechatunrecalled
+11-12 21:15:32.333 I/Xposed  ( 7621): cusor is null
+11-12 21:15:32.543 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.543 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.544 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.546 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.547 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.548 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:32.548 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:33.192 I/Xposed  ( 7698): cusor is null
+11-12 21:15:33.282 I/Xposed  ( 7714): cusor is null
+11-12 21:15:33.282 I/Xposed  ( 7714): eu.chainfire.supersu,hook;false
+11-12 21:15:34.576 I/Xposed  ( 7773): cusor is null
+11-12 21:15:35.851 I/Xposed  ( 7844): cusor is null
+11-12 21:15:35.851 I/Xposed  ( 7844): io.github.francoiscampbell.xposeddatausage,hook;false
+11-12 21:15:36.532 I/Xposed  ( 7893): cusor is null
+11-12 21:15:36.533 I/Xposed  ( 7893): de.andip71.boeffla_config_v2,hook;false
+11-12 21:15:36.880 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:36.882 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:36.883 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:36.910 I/Xposed  ( 6769): WechatUnrecalled (2.6.0)  Loaded app: com.tencent.mm 6.3.28
+11-12 21:15:36.911 I/Xposed  ( 6769): com.tencent.mm loading com.fkzhang.wechatforwarder
+11-12 21:15:37.738 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:37.739 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:37.740 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:37.740 I/Xposed  ( 4669): [Android N-ify] [DEBUG] QSContainerHelper: height: 312
+11-12 21:15:37.881 I/Xposed  ( 8005): cusor is null
+11-12 21:15:38.291 I/Xposed  ( 8036): cusor is null
+11-12 21:15:38.291 I/Xposed  ( 8036): de.robv.android.xposed.installer,hook;false
+11-12 21:15:39.173 I/Xposed  ( 8148): cusor is null
+11-12 21:15:40.338 I/Xposed  ( 3499): cusor is null
+11-12 21:15:40.612 I/Xposed  ( 8258): cusor is null
+11-12 21:15:42.686 I/Xposed  ( 8333): cusor is null
