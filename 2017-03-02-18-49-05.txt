@@ -1,0 +1,60 @@
+03-02 18:46:21.325 E/SELinux (1049): avc:  denied  { find } for service=package scontext=u:r:zygote:s0 tcontext=u:object_r:package_service:s0 tclass=service_manager
+--------- beginning of crash
+03-02 18:46:21.326 E/AndroidRuntime(9117): *** FATAL EXCEPTION IN SYSTEM PROCESS: main
+03-02 18:46:21.326 E/AndroidRuntime(9117): java.lang.NullPointerException: Attempt to invoke interface method 'android.content.pm.PackageInfo android.content.pm.IPackageManager.getPackageInfo(java.lang.String, int, int)' on a null object reference
+03-02 18:46:21.326 E/AndroidRuntime(9117): 	at me.piebridge.brevent.loader.Brevent.a(Brevent.java:110)
+03-02 18:46:21.326 E/AndroidRuntime(9117): 	at me.piebridge.brevent.loader.Brevent.main(Brevent.java:114)
+03-02 18:46:21.326 E/AndroidRuntime(9117): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+03-02 18:46:21.326 E/AndroidRuntime(9117): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:268)
+03-02 18:46:21.334 E/AndroidRuntime(9117): Error reporting crash
+03-02 18:46:21.334 E/AndroidRuntime(9117): java.lang.RuntimeException: Bad file descriptor
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.os.BinderProxy.transactNative(Native Method)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.os.BinderProxy.transact(Binder.java:536)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:123)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.os.ServiceManager.getService(ServiceManager.java:55)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2815)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.app.ActivityManagerNative$1.create(ActivityManagerNative.java:2813)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.util.Singleton.get(Singleton.java:34)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:88)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at com.android.internal.os.RuntimeInit$UncaughtHandler.uncaughtException(RuntimeInit.java:107)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:693)
+03-02 18:46:21.334 E/AndroidRuntime(9117): 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:690)
+03-02 18:46:21.631 E/fpc_fingerprint_hal(1150): fpc_wait_finger_down_for_home  0	2
+03-02 18:46:21.645 E/fpc_fingerprint_hal(1150): do_home status 0  1
+03-02 18:46:21.645 E/fpc_fingerprint_hal(1150): do_home  HOME DOWN 
+03-02 18:46:21.645 E/fpc_fingerprint_hal(1150): fpc_wait_finger_up
+03-02 18:46:21.747 E/fpc_fingerprint_hal(1150): fpc_wait_finger_up FPC_LIB_FINGER_LOST
+03-02 18:46:21.747 E/fpc_fingerprint_hal(1150): do_home status 0  2
+03-02 18:46:21.751 E/fpc_fingerprint_hal(1150): do_home  HOME UP 
+03-02 18:46:21.751 E/fpc_fingerprint_hal(1150): do_home 0
+03-02 18:46:21.751 E/fpc_fingerprint_hal(1150): fpc_wait_finger_down_for_home enter ---
+03-02 18:46:21.751 E/fpc_fingerprint_hal(1150): wait_wake_up  0	1
+03-02 18:46:23.872 D/NetworkController.MobileSignalController(1)( 5286): onSignalStrengthsChanged signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 28 -82 -4 222 2147483647 2147483647 4 4 gsm|lte level=4 voicelevel=4 datalevel=4
+03-02 18:46:26.266 E/AbstractTracker(5952): Can't create handler inside thread that has not called Looper.prepare()
+03-02 18:46:26.781 E/Fabric  (9479): Unknown error while loading Crashlytics settings. Crashes will be cached until settings can be retrieved.
+03-02 18:46:26.783 E/Answers (9479): Failed to retrieve settings
+03-02 18:46:30.681 F/libc    (9110): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x58b7f7fc in tid 9110 (libbootstrap.so)
+03-02 18:46:30.745 F/DEBUG   (9716): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-02 18:46:30.746 F/DEBUG   (9716): Build fingerprint: 'OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447841100:user/release-keys'
+03-02 18:46:30.746 E/DEBUG   (9716): AM write failed: Broken pipe
+03-02 18:46:30.746 F/DEBUG   (9716): Revision: '0'
+03-02 18:46:30.746 F/DEBUG   (9716): ABI: 'arm64'
+03-02 18:46:30.746 F/DEBUG   (9716): pid: 9110, tid: 9110, name: libbootstrap.so  >>> /data/app/me.piebridge.brevent-1/lib/arm64/libbootstrap.so <<<
+03-02 18:46:30.746 F/DEBUG   (9716): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x58b7f7fc
+03-02 18:46:30.746 F/DEBUG   (9716):     x0   0000000058b7f7fc  x1   0000000000000000  x2   0000007f980c5b48  x3   0000000000000000
+03-02 18:46:30.746 F/DEBUG   (9716):     x4   00544443ffffffff  x5   0000000000000000  x6   0000008080808080  x7   fefefefeff535242
+03-02 18:46:30.746 F/DEBUG   (9716):     x8   7f7f7f7f7f7f7f7f  x9   fefefefefefefeff  x10  7f7f7f7f7f7f7f7f  x11  0101010101010101
+03-02 18:46:30.746 F/DEBUG   (9716):     x12  0000000000000018  x13  0000007f97dae008  x14  0000007f97dae250  x15  0000007f980c5b38
+03-02 18:46:30.746 F/DEBUG   (9716):     x16  0000007f980bdbf8  x17  0000007f98003c64  x18  0000000000000011  x19  0000000000000000
+03-02 18:46:30.746 F/DEBUG   (9716):     x20  0000000058b7f7fc  x21  c1a3fc5304818af8  x22  0000007f980c5b48  x23  0000007f980c0480
+03-02 18:46:30.746 F/DEBUG   (9716):     x24  0000000000000000  x25  0000007f980c03e8  x26  000000000000000a  x27  0000000000000000
+03-02 18:46:30.746 F/DEBUG   (9716):     x28  0000000000000000  x29  0000007fc8201b50  x30  0000007f980544e8
+03-02 18:46:30.746 F/DEBUG   (9716):     sp   0000007fc8201b50  pc   0000007f98053360  pstate 0000000060000000
+03-02 18:46:30.750 F/DEBUG   (9716): 
+03-02 18:46:30.750 F/DEBUG   (9716): backtrace:
+03-02 18:46:30.750 F/DEBUG   (9716):     #00 pc 000000000006c360  /system/lib64/libc.so (localsub+28)
+03-02 18:46:30.750 F/DEBUG   (9716):     #01 pc 000000000006d4e4  /system/lib64/libc.so (localtime_r+56)
+03-02 18:46:30.750 F/DEBUG   (9716):     #02 pc 00000000000015a0  /data/app/me.piebridge.brevent-1/lib/arm64/libbootstrap.so
+03-02 18:46:30.750 F/DEBUG   (9716):     #03 pc 000000000000140c  /data/app/me.piebridge.brevent-1/lib/arm64/libbootstrap.so (main+724)
+03-02 18:46:30.750 F/DEBUG   (9716):     #04 pc 000000000001bd18  /system/lib64/libc.so (__libc_init+100)
+03-02 18:46:30.750 F/DEBUG   (9716):     #05 pc 000000000000111c  /data/app/me.piebridge.brevent-1/lib/arm64/libbootstrap.so
